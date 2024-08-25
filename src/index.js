@@ -1,1 +1,12 @@
-file://%20index.jsimport%20react%20from%20'react';import%20reactdom%20from%20'react-dom';import%20'./index.css';import%20App%20from%20'./App';ReactDOM.render(%20%20%3CReact.StrictMode%3E%20%20%20%20%3CApp%20/%3E%20%20%3C/React.StrictMode%3E,%20%20document.getElementById('root'));
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
